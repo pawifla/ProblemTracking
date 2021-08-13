@@ -1,0 +1,125 @@
+﻿/*.owner_icon{
+    background:url('/Images/person-lines-fill.svg') no-repeat center center;
+}
+td.owner_icon {
+    background: url('/Images/person-lines-fill.svg') no-repeat center center;
+}*/
+
+table.dataTable tbody tr .child-header{
+    background-color: #c4e1ff !important;
+    position: sticky;
+    padding-bottom: inherit;
+    top:0;
+    opacity:1;
+    z-index:1;
+}
+table.dataTable table tr tbody th .sticky-table{
+    width:100%;
+    position:relative;
+    border-collapse:collapse;
+}
+td.details-control {
+   
+    background: url('../Images/caret-right-fill.svg') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    
+    background: url('../Images/caret-down.svg') no-repeat center center;
+}
+td.trash-icon {
+    background: url('../Images/trash.svg') no-repeat center center;
+    
+    cursor: pointer;
+}
+.trash-icon {
+    content: url('../Images/trash.svg');
+    cursor: pointer;
+}
+.child-owner-icon{
+    content: url('../Images/person-lines-fill.svg');
+    cursor: pointer;
+}
+
+.edit-icon {
+    content: url('../Images/pencil-square.svg');
+    cursor: pointer;
+}
+
+.left-right-arrows {
+    content: url('../Images/arrow-left-right.svg');
+    cursor: pointer;
+}
+
+td.details-control:hover{
+    fill:red;
+}
+body{
+    margin: 0 auto;
+    width:90%;
+}
+table{
+   overflow: auto;
+}
+textarea {
+    /* box-sizing: padding-box; */
+    overflow: auto;
+    /* demo only: */
+    padding: -10px;
+    
+    min-height: 38px;
+}
+tr {
+    width: 100%;
+    justify-content: center;
+    align-self: center;
+    margin: 0 0 0 0;
+}
+.row{
+    margin:auto;
+}
+td{
+    padding:0;
+}
+.toast{
+    position:relative;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100%;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem; /* Footer height */
+}
+
+#footer1 {
+    background-color:rgba(255,255,255,0.9);
+    text-align:center;
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    width: 90%;
+    height: 2.5rem; /* Footer height */
+}
+.scrollBox{
+    width:100%;
+display:flex;
+justify-content:center;
+margin:0;
+padding:0;
+overflow-y:scroll;
+max-height:700px;
+}
+.sticky-th{
+    position:sticky;
+    top:500px;
+}
+.sticky-table{
+    width:100%;
+    position:relative;
+}
+input[type="checkbox"] {
+    vertical-align: bottom;
+}
