@@ -1,0 +1,9 @@
+Web.config
+Web.Debug.config
+Web.Release.config
+WebLayouts.csproj
+WebLayouts.csproj.user
+WebLayouts.csproj.vspscc
+.bin
+.obj
+.Properties
